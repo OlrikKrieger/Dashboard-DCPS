@@ -3,51 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Druck Analyse Dashboard</title>
+    <title>Meine einfache GitHub-Seite</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            color: #333;
             margin: 0;
             padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
+            background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            text-align: center;
+            font-size: 24px;
+            color: #007bff;
         }
-        #cameraButton {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        #output {
-            margin-top: 20px;
+        p {
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>3D Druck Analyse Dashboard</h1>
-        <button id="cameraButton">Bild aufnehmen</button>
-        <div id="output"></div>
+        <h1>Willkommen auf meiner GitHub-Seite!</h1>
+        <p>Dies ist eine einfache Webseite, die auf GitHub Pages gehostet wird.</p>
     </div>
-
-    <script>
-        document.getElementById('cameraButton').addEventListener('click', function() {
-            alert('Hier würde das Bild aufgenommen und analysiert werden.');
-        });
-    </script>
 </body>
 </html>
